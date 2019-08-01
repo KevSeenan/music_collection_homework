@@ -40,6 +40,12 @@ album2 = Album.new(
 album1.save()
 album2.save()
 
+artist1.name = "Soundgarden"
+artist1.update()
+
+album1.title = "Badmotorfinger"
+album1.update()
+
 binding.pry
 
 nil
